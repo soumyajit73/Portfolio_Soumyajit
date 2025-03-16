@@ -21,3 +21,21 @@ Frontend: HTML, CSS, JavaScript
 Backend: Node.js & Express 
 
 Database: MySQL 
+
+📬 Contact Me
+💼 Portfolio: soumyajit73.github.io
+📧 Email: soumyajitdatta1234@gmail.com
+
+🔗 LinkedIn: [(https://www.linkedin.com/in/soumyajit-datta-123524286/)
+
+💙 Show Some Love!
+If you like this project, don't forget to ⭐ star the repo and share it! 😊
+
+🔧 Future Improvements
+ Add a blog section
+
+ Improve animations
+
+ Optimize for performance
+
+
