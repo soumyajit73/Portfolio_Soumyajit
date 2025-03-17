@@ -117,6 +117,144 @@ textarea {
   }
 }
 
+/* Reset defaults */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background: #f4f4f4;
+}
+
+/* Main container */
+.main-container {
+  max-width: 120rem;
+  margin: auto;
+  padding: 0 2rem;
+}
+
+/* Header styles */
+.header {
+  background: #03447d;
+  color: #e3bdbd;
+  padding: 1.5rem 0;
+}
+
+.header__content {
+  padding: 1rem 2rem; /* Reduced horizontal padding to narrow the navbar */
+}
+
+.header .main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 2rem;
+  text-decoration: none;
+  color: #325ef0;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #2367f0;
+  font-size: 1.6rem;
+}
+
+/* Section padding */
+.sec-pad {
+  padding: 6rem 0;
+}
+
+/* Achievements Section */
+/* Achievements Page - Vibrant and Attractive Styles */
+.achievements {
+  background: linear-gradient(135deg, #196adb, #d16270);
+  color: #fff;
+  padding: 6rem 0;
+}
+
+.heading-primary {
+  text-align: center;
+  font-size: 3.8rem;
+  margin-bottom: 4rem;
+  color: #ffffff;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.achievements__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+  gap: 3rem;
+}
+
+.achievement {
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+  padding: 2.5rem;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.achievement:hover {
+  transform: translateY(-8px);
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.achievement__title {
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+  color: #ffeb3b;  /* Vibrant yellow accent */
+}
+
+.achievement__desc {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+/* Header adjustments for consistency */
+.header {
+  background: linear-gradient(90deg, #d7263d, #d22818);
+  padding: 0.25rem 0;
+}
+
+.nav-links a {
+  font-size: 1.8rem;
+  color: #000c5d;
+  text-decoration: none;
+  margin-right: 2rem;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #ff005d;
+}
+
+/* Footer adjustments */
+.footer {
+  background: #e63a3a;
+  color: #ddcdcd;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.footer p {
+  font-size: 1.6rem;
+  
+}
 
 .heading-primary {
   font-size: 6rem;
