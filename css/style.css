@@ -76,6 +76,48 @@ textarea {
   resize: none;
 }
 
+.slide-text-container {
+  overflow: hidden;
+  text-align: center;
+  margin-top: 20px;
+}
+.slide-text {
+  display: inline-block;
+  font-size: 7rem;
+  font-weight: bold;
+  color: #333;
+  animation: slideFromTop 2s ease-in-out forwards;
+  opacity: 0;
+}
+@keyframes slideFromTop {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeInEffect 2s ease-in-out forwards;
+  animation-delay: 1s; /* Starts after the name animation */
+}
+
+@keyframes fadeInEffect {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
 .heading-primary {
   font-size: 6rem;
   text-transform: uppercase;
@@ -254,8 +296,8 @@ textarea {
 .home-hero__socials {
   position: absolute;
   top: 50%;
-  border: 2px solid #eee;
-  border-left: 2px solid #eee;
+  border: 2px solid #0d0909;
+  border-left: 2px solid #060606;
   transform: translateY(-50%);
 }
 @media only screen and (max-width: 56.25em) {
@@ -281,7 +323,7 @@ textarea {
   width: 100%;
   display: block;
   padding: 1.2rem;
-  border-bottom: 2px solid #eee;
+  border-bottom: 2px solid #080606;
   transition: background 0.3s;
 }
 .home-hero__social-icon-link:hover {
