@@ -514,13 +514,13 @@ textarea {
 
 /* Add a color highlight effect */
 .projects__row:hover {
-  background-color: #bec5da; /* Slightly Darker on Hover */
+  background-color: #afb4c1; /* Slightly Darker on Hover */
   transition: background-color 0.3s ease-in-out;
 }
 
 /* Education Section Styles */
 .education {
-  background: #a4b2c0; /* Light background color */
+  background: #cad2db; /* Light background color */
   padding: 12rem 0;
 }
 
@@ -543,7 +543,7 @@ textarea {
 }
 
 .education__item {
-  background: #a3b5e7;
+  background: #97aaea;
   padding: 3rem;
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
