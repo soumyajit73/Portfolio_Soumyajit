@@ -518,6 +518,58 @@ textarea {
   transition: background-color 0.3s ease-in-out;
 }
 
+/* Education Section Styles */
+.education {
+  background: #a4b2c0; /* Light background color */
+  padding: 12rem 0;
+}
+
+.education__item--center {
+  margin: 0 auto;       /* Centers the block container */
+  text-align: center;   /* Centers the text content */
+}
+
+.education__content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5rem;
+}
+
+@media only screen and (max-width: 56.25em) {
+  .education__content {
+    grid-template-columns: 1fr;
+    grid-gap: 4rem;
+  }
+}
+
+.education__item {
+  background: #a3b5e7;
+  padding: 3rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.education__item-title {
+  font-size: 2.4rem;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.education__item-duration {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #666666;
+  margin-bottom: 1rem;
+}
+
+.education__item-desc {
+  font-size: 1.8rem;
+  line-height: 1.7;
+  color: #0c0c0c;
+}
+
 .contact {
   background: linear-gradient(
       to right,
