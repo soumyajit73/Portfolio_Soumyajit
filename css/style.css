@@ -320,6 +320,7 @@ textarea {
     display: none;
   }
 }
+
 .home-hero__social {
   width: 5rem;
 }
@@ -356,11 +357,11 @@ textarea {
   }
 }
 .home-hero__info {
-  margin: 3rem auto 0 auto;
+  margin: 5rem auto 0 auto;
   max-width: 80rem;
 }
 .home-hero__cta {
-  margin-top: 5rem;
+  margin-top: 10rem;
   text-align: center;
 }
 
@@ -520,7 +521,7 @@ textarea {
 
 /* Education Section Styles */
 .education {
-  background: #cad2db; /* Light background color */
+  background: hsl(218, 87%, 64%); /* Light background color */
   padding: 12rem 0;
 }
 
