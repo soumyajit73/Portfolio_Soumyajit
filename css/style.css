@@ -82,8 +82,9 @@ textarea {
   margin-top: 20px;
 }
 .slide-text {
-  display: inline-block;
-  font-size: 7rem;
+ 
+  font-size: 6rem;
+  text-align: center;
   font-weight: bold;
   color: #333;
   animation: slideFromTop 2s ease-in-out forwards;
