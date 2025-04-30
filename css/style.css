@@ -82,7 +82,6 @@ textarea {
   margin-top: 20px;
 }
 .slide-text {
- 
   font-size: 6rem;
   text-align: center;
   font-weight: bold;
@@ -149,7 +148,9 @@ body {
 .header__content {
   padding: 1rem 2rem; /* Reduced horizontal padding to narrow the navbar */
 }
-
+.slide-text {
+  color: black;
+}
 .header .main-container {
   display: flex;
   justify-content: space-between;
@@ -219,14 +220,55 @@ body {
   text-align: center;
   font-size: 2.4rem;
   margin-bottom: 1rem;
-  color: #ffeb3b;  /* Vibrant yellow accent */
+  color: #ffeb3b; /* Vibrant yellow accent */
 }
 
 .achievement__desc {
   font-size: 1.6rem;
   line-height: 1.5;
 }
+@media only screen and (max-width: 37.5em) {
+  /* Hide desktop navbar links on mobile */
+  .header__links {
+    display: none;
+  }
+  /* Show the hamburger menu container on mobile */
+  .header__main-ham-menu-cont {
+    display: block;
+  }
+  /* Mobile menu styling: hide by default */
+  .header__sm-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+  }
+  /* When the hamburger is active, show the mobile menu */
+  .header__sm-menu--active {
+    display: block;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .heading-primary {
+    font-size: 2.8rem;
+    margin-bottom: 3rem;
+  }
 
+  .achievement {
+    padding: 2rem;
+  }
+
+  .achievement__title {
+    font-size: 2rem;
+  }
+
+  .achievement__desc {
+    font-size: 1.3rem;
+  }
+}
 /* Header adjustments for consistency */
 .header {
   background: linear-gradient(90deg, #d7263d, #d22818);
@@ -255,7 +297,6 @@ body {
 
 .footer p {
   font-size: 1.6rem;
-  
 }
 
 .heading-primary {
@@ -287,7 +328,17 @@ body {
     margin-bottom: 8rem;
   }
 }
-
+@media only screen and (max-width: 480px) {
+  .home-hero__cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  .home-hero__cta a {
+    margin-right: 0 !important; /* Override inline style */
+  }
+}
 .heading-sec__main {
   display: block;
   font-size: 4rem;
@@ -414,8 +465,6 @@ body {
 }
 
 /* Background container to hold tech icons */
-
-
 
 .home-hero {
   color: #0f0a0a;
@@ -666,8 +715,8 @@ body {
 }
 
 .education__item--center {
-  margin: 0 auto;       /* Centers the block container */
-  text-align: center;   /* Centers the text content */
+  margin: 0 auto; /* Centers the block container */
+  text-align: center; /* Centers the text content */
 }
 
 .education__content {
